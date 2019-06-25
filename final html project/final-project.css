@@ -1,0 +1,112 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: silver;
+}
+
+
+header {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  float:left;
+  list-style:none;
+}
+
+nav ul li a {
+  color: white;
+  display:block;
+  text-decoration:none;
+  font-family:arial;
+  font-size: 17px;
+  padding: 10px 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+
+.gridlayout1 {
+  margin: 15px 50px;
+  padding-top: 1%;
+  float: left;
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  grid-column-gap: 200px;
+}
+
+h2 {
+ color: black;
+ font-size: 23px;
+ font-family: cursive;
+ text-align: center;
+}
+
+h3 {
+  color: black;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+img {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.gridlayout2 {
+  margin: 15px 50px;
+  padding-top: 1%;
+  float: left;
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  grid-column-gap: 200px;
+}
+
+h4 {
+ color: black;
+ font-size: 23px;
+ font-family: cursive;
+ text-align: center;
+}
+
+h5 {
+  color: black;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.my-pic {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+}
